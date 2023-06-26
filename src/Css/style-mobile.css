@@ -561,9 +561,3 @@ body {
 }
 
 /* --------------------------------END-COMPLEMENTS---------------------------- */
-
-@media screen and (max-width:500px) and (min-height:700px) {
-    .main .product .infos .flavors .sub-flavors{
-        top: 3em;
-    }
-}
