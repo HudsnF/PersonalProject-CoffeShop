@@ -1,6 +1,6 @@
+/* min-height:1000px  and min-width:700px */
 
-
-@media screen and (min-height: 600px) and (min-width:700px) {
+@media screen and  (min-height:900px) and (min-width:700px) {
 
     *::-webkit-scrollbar {
         width: 16px;
@@ -20,6 +20,10 @@
     }
 
     /* -----------------------Header--------------- */
+    body{
+        max-width: 100%;
+        width: 100%;
+    }
     .header .logo {
         display: flex;
         align-items: center;
@@ -174,9 +178,6 @@
 }
 
 @media screen and (min-width:1300px){
-    #container{
-        max-width: 2400px;
-    }
     .main .product .infos .flavors .sub-flavors{
         top: 17em;
         right: 6em;
