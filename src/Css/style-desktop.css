@@ -1,6 +1,6 @@
 /* min-height:1000px  and min-width:700px */
 
-@media screen and  (min-height:900px) and (min-width:700px) {
+@media screen and (min-width:700px) {
 
     *::-webkit-scrollbar {
         width: 16px;
@@ -20,10 +20,7 @@
     }
 
     /* -----------------------Header--------------- */
-    body{
-        max-width: 100%;
-        width: 100%;
-    }
+    
     .header .logo {
         display: flex;
         align-items: center;
@@ -37,7 +34,7 @@
 
     .header .menu .button {
         width: 8em;
-        font-size: 1.1em;
+        font-size: 1em;
         border: 3px solid black;
     }
 
@@ -51,19 +48,19 @@
     }
 
     .main .product .product-title h1 {
-        font-size: 3.5em;
+        font-size: 3em;
         width: 45%;
     }
 
     .main .product .product-title h1:hover {
-        font-size: 4em;
+        font-size: 3.5em;
         text-shadow: 5px 5px 8px black;
     }
 
     .main .product .image img {
-        border-radius: 2em;
-        width: 19em;
-        height: 18em;
+        width: 14em;
+        height: 13em;
+        border-radius: 4em;
         box-shadow: 2px 3px 6px white;
     }
 
@@ -81,7 +78,7 @@
     .main .text {
         width: 50%;
         height: 40%;
-        top: 12em;
+        top: 8em;
     }
 
     .main .infos .text .description {
@@ -90,8 +87,8 @@
 
     .main .product .infos .flavors .sub-flavors {
         width: 65%;
-        height: 35%;
-        bottom: 20em;
+        height: 55%;
+        top: 2em;
         flex-wrap: wrap;
         font-size: 1.1em;
     }
@@ -102,13 +99,13 @@
     }
 
     .main .product .infos .flavors .sub-flavors .btn-choose:hover {
-        padding: 1.6em;
+        padding: 1.4em;
         border: 3px solid white;
     }
 
     .main .product .sub-text button {
         padding: 2em;
-        width: 350px;
+        width: 20em;
     }
 
     .main .social .nav-social .list-social li:hover {
@@ -129,19 +126,19 @@
     }
 
     .main .product .product-title h1 {
-        font-size: 4em;
+        font-size: 3em;
         width: 45%;
     }
 
     .main .product .product-title h1:hover {
-        font-size: 4.5em;
+        font-size: 3.5em;
         text-shadow: 5px 5px 8px black;
     }
 
     .main .product .image img {
         border-radius: 1em;
-        width: 22.5em;
-        height: 22.5em;
+        width: 17em;
+        height: 14.5em;
         box-shadow: 2px 3px 6px white;
     }
 
@@ -157,7 +154,9 @@
     }
 
     .main .product .infos .flavors .sub-flavors {
-        top: 17em;
+        top: 5em;
+        right: 1em;
+        width: 50%;
         gap: 3px;
         flex-wrap: wrap;
         font-size: 1.2em;
@@ -174,19 +173,5 @@
 
     .main .product .sub-text button {
         margin-bottom: 1em;
-    }
-}
-
-@media screen and (min-width:1300px){
-    .main .product .infos .flavors .sub-flavors{
-        top: 17em;
-        right: 6em;
-        width: 50%;
-    }
-}
-
-@media screen and (min-width:1500px){
-    .main .product .infos .flavors .sub-flavors{
-        width: 40%;
     }
 }
