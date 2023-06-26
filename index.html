@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/image/logo.png">
+    <link rel="stylesheet" href="./src/Css/style-mobile.css">
+    <link rel="stylesheet" href="./src/Css/style-desktop.css">
+    <title>coffeeShop</title>
+</head>
+
+<body>
+    <div id="container">
+        <header class="header">
+            <div class="logo">
+                <img src="./src/image/logo.png" alt="logo" width="40px">
+            </div>
+            <div class="menu">
+                <button class="button">Flavors</button>
+                <button class="button">Store</button>
+                <button class="button button-2">About us</button>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="product">
+                <div class="product-title">
+                    <h1>Coffee time</h1>
+                </div>
+
+                <div class="image">
+                    <img src="./src/image/product.jpg" alt="image-tea" width="11.5em" height="220px">
+                </div>
+                <div class="order order-active">
+                    <div class="order-border">
+                        <h2>Your order was <span class="flavorOrder" id="span">"choose a flavor"</span> !</h2>
+                        <button class="btn-choose-again">Choose the flavor again</button>
+                        <button class="btn-confirm">Confirm my order</button>
+                    </div>
+                </div>
+                <div class="thank-you order-active">
+                    <div class="thank-you-border">
+                        <p>Thank you for the order!</p>
+                        <button class="btn-close">Close</button>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <div class="ingredients">
+                        <div class="div-ingredients">
+                            <button class="btn-view-more">
+                                <p>Ingredients</p>
+                                <p>100% organic</p>
+                        </div>
+                        </button>
+                        <div class="text active">
+                            <div class="description">
+                                <p>Coffee is a <span>beverage</span> prepared from roasted coffee beans. Darkly
+                                    <span>colored</span>, <span>bitter</span>, and <span>slightly acidic</span>,
+                                    coffee has a
+                                    stimulating effect on humans, primarily due to its caffeine content. It has the
+                                    <span>highest</span> sales in the world market for hot drinks.
+                                <p>The physical characteristics and chemical composition of coffee are influenced by
+                                    by factors of different natures, highlighting among them genetic, environmental,
+                                    nutritional factors, management of
+                                    plowing, harvesting, preparation, etc. With the exception
+                                    of genetic and environmental, the other
+                                    factors can be controlled after
+                                    implementation of the crop, not only in management (good agronomic practices), when
+                                    every effort is put into obtaining
+                                    of the maximum in quality, as well as in the phase
+                                    harvesting and coffee preparation, in which
+                                    seeks to preserve the quality obtained.</p>
+                                </p>
+                                <p><i><b>Wikipédia(2023), Emater(2016)</i></b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flavors">
+                        <div class="div-flavors">
+                            <button class="btn-flavors">
+                                <p>Choose a flavor</p>
+                            </button>
+                        </div>
+                        <div class="sub-flavors active">
+                            <button class="btn-choose flavors-colors1">
+                                Espresso
+                            </button>
+                            <button class="btn-choose flavors-colors2">
+                                Chocolate
+                            </button>
+                            <button class="btn-choose flavors-colors3">
+                                Mint and Chocolate
+                            </button>
+                            <button class="btn-choose flavors-colors4">
+                                Hazelnut
+                            </button>
+                            <button class="btn-choose flavors-colors5">
+                                Caramel
+                            </button>
+                            <button class="btn-choose flavors-colors6">
+                                Vanilla
+                            </button>
+                            <button class="btn-choose flavors-colors7">
+                                White Chocolate
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-text">
+                    <button class="btn-order-now">
+                        <p>Order now</p>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="social">
+                <nav class="nav-social">
+                    <ul class="list-social active">
+                        <li><a href="https://github.com/HudsnF" target="_blank"><img src="./src/image/github.svg"
+                                    alt="log-github" width="25px"></a></li>
+                        <li><a href="https://www.linkedin.com/in/hudsonsanto/" target="_blank"><img
+                                    src="./src/image/linkedin-in.svg" alt="logo=linkedin" width="25px"></a></li>
+                        <li><a href="https://www.instagram.com/hudsnf/" target="_blank"><img
+                                    src="./src/image/instagram.svg" alt="logo-instagram" width="25px"></a></li>
+                    </ul>
+                    <input type="checkbox" class="menu-btn hide" id="menu-btn">
+                    <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+                </nav>
+            </div>
+        </main>
+    </div>
+    <script src="./src/Javascript/script.js"></script>
+</body>
+
+</html>
