@@ -1,6 +1,6 @@
 /* min-height:1000px  and min-width:700px */
 
-@media screen and (min-height: 800px) and (min-width:700px) {
+@media screen and (min-width:700px) {
 
     *::-webkit-scrollbar {
         width: 16px;
