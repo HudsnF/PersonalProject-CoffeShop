@@ -241,8 +241,9 @@
 
     }
 
-    .thank-you .thank-you-border {
+    .thank-you{
         height: 40%;
+        top: 3em;
     }
 
     .thank-you .thank-you-border p {
