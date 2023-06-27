@@ -177,7 +177,8 @@
 }
 
 @media only screen and (min-width: 400px) and (max-height:450px) {
-  .header .menu .button {
+
+    .header .menu .button {
         font-size: .8em;
     }
 
@@ -206,7 +207,7 @@
     .main .product .infos .flavors .sub-flavors {
         top: 1em;
         flex-wrap: wrap;
-        width: 75%;
+        width: 78%;
         height: 50%;
     }
 
@@ -225,17 +226,23 @@
         padding: 1em;
         width: 15em;
     }
-
+    .main .product .sub-text button:hover{
+        width: 16em;
+    }
+    .order .order-border{
+        gap:1em;
+    }
     .order .order-border h2 {
         font-size: 1em;
     }
 
     .order .order-border button {
         font-size: 1em;
+
     }
 
     .thank-you .thank-you-border {
-        top: 3em;
+        height: 40%;
     }
 
     .thank-you .thank-you-border p {
@@ -247,6 +254,7 @@
     }
 
 
+}
 
 @media screen and (min-height: 700px) and (min-width: 1300px) {
     .header .menu {
