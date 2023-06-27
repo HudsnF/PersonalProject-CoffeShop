@@ -204,7 +204,7 @@
     .main .product .infos .flavors .sub-flavors{
         top: 1em;
         flex-wrap: wrap;
-        width: 65%;
+        width: 75%;
         height: 50%;
     }
     .main .product .infos .flavors .sub-flavors .btn-choose {
